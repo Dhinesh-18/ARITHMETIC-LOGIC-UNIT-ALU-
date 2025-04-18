@@ -1,0 +1,17 @@
+module ALU(
+    input [3:0] a,
+    input [3:0] b,
+    input [2:0] ALU_sel,
+    output reg [3:0] ALU_out
+);
+    always @(*) begin
+        case(ALU_sel)
+            3'b000: ALU_out = a + b;  
+            3'b001: ALU_out = a - b;     
+            3'b010: ALU_out = a & b;     
+            3'b011: ALU_out = a | b;       
+            3'b100: ALU_out = -a;       
+            default: ALU_out = 4'b0000;
+        endcase
+    end
+endmodule

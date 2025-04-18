@@ -24,3 +24,5 @@ The ALU is implemented using Verilog/VHDL and includes a testbench for validatio
 PROJECT REQUIREMENTS: Implement the ALU using Verilog/VHDL. Design a testbench to validate functionality. Simulate the ALU and generate a report. DELIVERABLES: ✅ ALU Verilog/VHDL Code ✅ Testbench for Verification ✅ Simulation Report
 
 # OUTPUT
+![Image](https://github.com/user-attachments/assets/054cb9bc-81d3-4c85-ad15-af7f0325c432)
+![Image](https://github.com/user-attachments/assets/6cd0cb07-eeb2-406f-b565-cbc23cbd5f08)
